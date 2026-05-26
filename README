@@ -1,0 +1,15 @@
+# Cloud Journey Week 2
+
+## Docker Projects
+
+### weather-api
+Python script that fetches live weather using requests library.
+Packaged as Docker image.
+
+To run:
+docker build -t weather-api:1.0 .
+docker run -it weather-api:1.0
+
+### Progress
+- Day 1: Docker fundamentals, containers, images, SSH
+- Day 2: Created Dockerfile, built image, ran container
